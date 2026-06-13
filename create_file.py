@@ -1,7 +1,4 @@
-
-
-filename = "file2"
-
+filename = "file1"
 with open(filename, "w") as file:
-    file.write("Hello World")
+    file.write("Hello Rahim")
 print(f"{filename} created")
